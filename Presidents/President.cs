@@ -30,7 +30,7 @@
         public void Show()
         {
             var yearTo = YearTo.ToString() ?? "";
-            Console.WriteLine($"{Name} ({Party}) {YearFrom} - {yearTo} [{Years}]");
+            Console.WriteLine($"{Name} ({Party}) {YearFrom} - {yearTo}");
         }
     }
 }
